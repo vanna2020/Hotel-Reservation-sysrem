@@ -1,21 +1,27 @@
 package com.bridgelabz;
 public class Hotel {
-    String hotelName;
-    int hotelRegularRate;
+    private String hotelName;
+    private int hotelRegularRate;
 
-    /**
-     * brConstructor Name must be same as class name
-     * we pass argument that is String hotelName and int hotelName
-     */
+    public String getHotelName() {
+        return hotelName;
+    }
 
-    public Hotel(String hotelName, int hotelRegularRate) {
-
-        /** Parameter and instance variable are same
-         * So we are using this keyword
-         */
-
+    public void setHotelName(String hotelName) {
         this.hotelName = hotelName;
+    }
+
+    public int getHotelRegularRate() {
+        return hotelRegularRate;
+    }
+
+    public void setHotelRegularRate(int hotelRegularRate) {
         this.hotelRegularRate = hotelRegularRate;
     }
-}
 
+    public Hotel(String hotelName, int hotelRegularRate) {
+        this.hotelName = hotelName;
+        this.hotelRegularRate = hotelRegularRate;
+
+    }
+}
