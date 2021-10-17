@@ -3,7 +3,8 @@ public class Hotel {
     String hotelName;
     int hotelRegularRate;
 
-    /**Constructor Name must be same as class name
+    /**
+     * brConstructor Name must be same as class name
      * we pass argument that is String hotelName and int hotelName
      */
 
